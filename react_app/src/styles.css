@@ -1,0 +1,35 @@
+body{
+    background-color: cornsilk;
+    font-weight: 400;
+}
+
+body div{
+    text-align: center;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    padding-top: 0px;
+    max-width: 90%;
+}
+
+.Button{
+    margin: 10%;
+    border-radius: 10%;
+    text-align: center;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    background-color:rgb(168, 156, 109);
+}
+
+.Button:active{
+    opacity: 0.5;
+}
+ 
+.Webcam{
+}
